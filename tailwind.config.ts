@@ -8,9 +8,27 @@ export default {
   ],
   theme: {
     extend: {
+      screens: {
+        "2xl": { max: "1535px" },
+        // => @media (max-width: 1535px) { ... }
+        xl: { max: "1279px" },
+        // => @media (max-width: 1279px) { ... }
+        lg: { max: "1023px" },
+        // => @media (max-width: 1023px) { ... }
+        md: { max: "767px" },
+        // => @media (max-width: 767px) { ... }
+        sm: { max: "639px" },
+        // => @media (max-width: 639px) { ... }
+      },
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        main: "rgba(var(--color-main), 1)",
+        "color-1": "rgba(var(--color-1), 1)",
+        "color-2": "rgba(var(--color-2), 1)",
+      },
+      fontFamily: {
+        poppins: "var(--font-poppins)",
+        openSans: "var(--font-open-sans)",
+        firaCode: "var(--font-fira-code)",
       },
     },
   },

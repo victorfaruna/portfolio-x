@@ -2,20 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+:root[data-theme="dark"] {
+  --color-main: 10, 10, 10;
+  --color-1: 255, 255, 255;
+  --color-2: 200, 200, 200;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+:root[data-theme="light"] {
+  --color-main: 240, 240, 240;
+  --color-1: 0, 0, 0;
+  --color-2: 0, 0, 0;
 }
