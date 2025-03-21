@@ -4,6 +4,6 @@ import HeroSmall from "./HeroSmall";
 import HeroBig from "./HeroBig";
 
 export default function Hero() {
-  const { width, height } = useWindowSize();
+  const { width } = useWindowSize();
   return width < 768 ? <HeroSmall /> : <HeroBig />;
 }

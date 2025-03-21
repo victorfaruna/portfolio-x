@@ -14,7 +14,7 @@ export default function About() {
           .../About me...
         </p>
         <p className="text-[1rem] text-color-1/70">
-          Hello! I'm Victor, I'm a full stack developer
+          Hello! I'm Victor, I&apos;m a full stack developer
           <br />
           With more than <span className="italic text-color-1">6 years</span> of
           experience.

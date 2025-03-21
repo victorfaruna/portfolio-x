@@ -30,7 +30,7 @@ const DATA = [
 
 export default function HeroArticles() {
   const { width } = useWindowSize();
-  let swiperRef = useRef<SwiperRef>(null);
+  const swiperRef = useRef<SwiperRef>(null);
   return (
     <div
       id="swiper-container"
