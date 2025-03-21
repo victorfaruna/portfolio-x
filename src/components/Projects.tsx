@@ -55,11 +55,11 @@ const DATA = [
 const ProjectCard = ({ data, index }: { data: any; index: number }) => {
   return (
     <div
-      className={`item w-full flex mb-[10rem] gap-10 ${
+      className={`item w-full flex md:flex-col mb-[10rem] gap-10 ${
         (index + 1) % 2 == 0 && "flex-row-reverse"
       }`}
     >
-      <div className="left w-[50%] flex flex-col gap-5 ">
+      <div className="left w-[50%] md:w-full flex flex-col gap-5 ">
         <p className="text-[2rem]">{data.name}</p>
 
         <div className="tech w-full flex items-center flex-wrap gap-3">
@@ -118,7 +118,7 @@ const ProjectCard = ({ data, index }: { data: any; index: number }) => {
           </button>
         </div>
       </div>
-      <div className="right w-[50%]">
+      <div className="right w-[50%] md:w-full">
         <Image
           className="w-full object-cover rounded-[1.5rem]"
           src={data.image}
@@ -133,7 +133,7 @@ const ProjectCard = ({ data, index }: { data: any; index: number }) => {
 
 export default function Projects() {
   return (
-    <div className="projects-container w-full mt-[10rem] px-20 relative">
+    <div className="projects-container w-full mt-[10rem] px-20 sm:px-8 relative">
       <div
         id="projects-circle"
         className="circle absolute z-[-999] top-[-100px] right-[-200px] size-[800px] rounded-full border border-color-1/40"

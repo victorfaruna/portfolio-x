@@ -3,7 +3,7 @@ import React from "react";
 
 export default function About() {
   return (
-    <div className="about-container w-full mt-[10rem] px-20 relative">
+    <div className="about-container w-full mt-[10rem] px-20 sm:px-8 relative">
       <div
         id="about-circle"
         className="circle absolute z-[-999] top-[-100px] right-[-200px] size-[600px] rounded-full border border-color-1/40 sm:size-[300px]"
@@ -21,8 +21,8 @@ export default function About() {
         </p>
       </div>
 
-      <div className="inner w-full flex justify-between mt-20">
-        <div className="left w-[40%] flex flex-col gap-5">
+      <div className="inner w-full flex justify-between mt-20 md:flex-col md:gap-4">
+        <div className="left w-[40%] md:w-full flex flex-col gap-5">
           <div className="rowx w-full p-7 rounded-[2.2rem] bg-color-1 borderrr border-color-1/30 flex flex-col gap-2">
             <p className="title text-[1.2rem] font-ligh text-main">Front-end</p>
             <p className="text-main/80 font-firaCode">
@@ -80,7 +80,7 @@ export default function About() {
           {/**/}
           <div className="rice w-full flex justify-between">
             <div className="rowd w-full flex items-center justify-center text-color-1/70">
-              <p>
+              <p className="sm:text-[0.6rem]">
                 These are all some of my favorite{" "}
                 <span className="italic text-color-1">tools</span>,{" "}
                 <span className="italic text-color-1">technologies</span> and{" "}
@@ -96,7 +96,7 @@ export default function About() {
             </div>
           </div>
         </div>
-        <div className="right w-[50%] pl-10 flex justify-center">
+        <div className="right w-[50%] md:w-full pl-10 md:pl-0 flex justify-center">
           <div className="image-container w-[320px] h-[400px] overflow-hidden rounded-[2rem] rounded-bl-nonee rounded-tr-nonee border border-color-1/30">
             <Image
               className="w-full h-full object-cover"

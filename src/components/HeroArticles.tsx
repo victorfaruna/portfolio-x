@@ -3,6 +3,7 @@ import React, { useRef } from "react";
 import { Swiper, SwiperSlide, SwiperRef } from "swiper/react";
 import { Pagination } from "swiper/modules";
 import "swiper/css";
+import useWindowSize from "@/hooks/useWindowSize";
 const DATA = [
   {
     title: "Personal portfolio website.",
@@ -28,9 +29,13 @@ const DATA = [
 ];
 
 export default function HeroArticles() {
+  const { width } = useWindowSize();
   let swiperRef = useRef<SwiperRef>(null);
   return (
-    <div id="swiper-container" className="w-full h-[200px] px-20 relative">
+    <div
+      id="swiper-container"
+      className="w-full h-[200px] px-20 sm:px-8 relative"
+    >
       <div id="pagination">
         <div
           id="pagination-left"
@@ -56,7 +61,7 @@ export default function HeroArticles() {
 
         <div
           id="pagination-right"
-          className="absolute top-0 right-20 w-[200px] h-full bg-gradient-to-l z-[3] from-main via-main/70 to-transparent flex items-center justify-end"
+          className="absolute top-0 right-20 sm:right-8 w-[200px] h-full bg-gradient-to-l z-[3] from-main via-main/70 to-transparent flex items-center justify-end"
         >
           <button className="size-[70px] rounded-full border border-color-1/40 flex items-center justify-center">
             <svg
@@ -83,7 +88,7 @@ export default function HeroArticles() {
         className="w-full h-full"
         modules={[Pagination]}
         spaceBetween={20}
-        slidesPerView={3}
+        slidesPerView={width < 768 ? 1 : width > 1024 ? 3 : width > 768 ? 2 : 1}
         pagination={{ clickable: true }}
       >
         {DATA.map((item, index) => (

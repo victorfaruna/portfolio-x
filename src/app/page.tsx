@@ -7,7 +7,7 @@ import React from "react";
 
 export default function Home() {
   return (
-    <main className="w-full h-full">
+    <main className="w-screen h-full overflow-x-hidden">
       <Header />
       <Hero />
       <HeroArticles />
