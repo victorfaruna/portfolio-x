@@ -52,7 +52,7 @@ export default function HeroSmall() {
         </div>
       </div>
 
-      <p className="w-full text-[0.8rem] font-firaCode text-color-1/60 mt-3">
+      <p className="w-full text-[0.6rem] font-firaCode text-color-1/60 mt-3">
         I’m Victor Faruna, a skilled{" "}
         <span className="text-color-1 italic">full-stack developer</span> with
         expertise in creating scalable web and mobile applications using modern

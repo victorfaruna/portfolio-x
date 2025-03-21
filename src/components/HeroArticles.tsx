@@ -41,14 +41,14 @@ export default function HeroArticles() {
           id="pagination-left"
           className="absolute top-0 w-[200px] h-full bg-gradient-to-r z-[3] from-main via-main/70 to-transparent flex items-center"
         >
-          <button className="size-[70px] rounded-full border border-color-1/40 flex items-center justify-center">
+          <button className="size-[70px] sm:size-[40px] rounded-full border border-color-1/40 flex items-center justify-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
               strokeWidth="1.5"
               stroke="currentColor"
-              className="size-6"
+              className="size-6 sm:size-4"
             >
               <path
                 strokeLinecap="round"
@@ -63,14 +63,14 @@ export default function HeroArticles() {
           id="pagination-right"
           className="absolute top-0 right-20 sm:right-8 w-[200px] h-full bg-gradient-to-l z-[3] from-main via-main/70 to-transparent flex items-center justify-end"
         >
-          <button className="size-[70px] rounded-full border border-color-1/40 flex items-center justify-center">
+          <button className="size-[70px] sm:size-[40px] rounded-full border border-color-1/40 flex items-center justify-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
               strokeWidth="1.5"
               stroke="currentColor"
-              className="size-6"
+              className="size-6 sm:size-4"
             >
               <path
                 strokeLinecap="round"
