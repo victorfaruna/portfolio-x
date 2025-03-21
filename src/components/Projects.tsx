@@ -80,7 +80,7 @@ const ProjectCard = ({
         <p className="text-[2rem]">{data.name}</p>
 
         <div className="tech w-full flex items-center flex-wrap gap-3">
-          {data.tech.map((techItem: any, index: number) => (
+          {data.tech.map((techItem: string, index: number) => (
             <div
               key={index}
               className="item px-6 py-2 rounded-full border border-color-1/20 flex items-center justify-center text-color-1/70"

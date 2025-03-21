@@ -2,15 +2,20 @@
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
 
+const getLocalTheme = () => {
+  const localTheme =
+    typeof window !== "undefined" ? localStorage.getItem("theme") : null;
+  return localTheme ? localTheme : "dark";
+};
+
 export default function Header() {
-  const [theme, setTheme] = useState(localStorage.getItem("theme") || "dark");
+  const [theme, setTheme] = useState(getLocalTheme());
   useEffect(() => {
     document.documentElement.setAttribute("data-theme", theme);
   }, [theme]);
 
   const handleThemeChange = () => {
-    const newTheme =
-      localStorage.getItem("theme") === "light" ? "dark" : "light";
+    const newTheme = getLocalTheme() === "light" ? "dark" : "light";
     localStorage.setItem("theme", newTheme);
     setTheme(newTheme);
   };
