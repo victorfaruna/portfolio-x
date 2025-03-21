@@ -2,6 +2,17 @@
 import Image from "next/image";
 import React from "react";
 
+type ProjectCardData = {
+  name: string;
+  tech: string[];
+  links: {
+    github: string;
+    website: string;
+  };
+  image: string;
+  desc: string;
+};
+
 const DATA = [
   {
     name: "Thefloxtv",
@@ -52,7 +63,13 @@ const DATA = [
   },
 ];
 
-const ProjectCard = ({ data, index }: { data: any; index: number }) => {
+const ProjectCard = ({
+  data,
+  index,
+}: {
+  data: ProjectCardData;
+  index: number;
+}) => {
   return (
     <div
       className={`item w-full flex md:flex-col mb-[10rem] gap-10 ${
