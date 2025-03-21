@@ -39,7 +39,7 @@ export default function HeroArticles() {
       <div id="pagination">
         <div
           id="pagination-left"
-          className="absolute top-0 w-[200px] h-full bg-gradient-to-r z-[3] from-main via-main/70 to-transparent flex items-center"
+          className="absolute top-0 w-[200px] sm:w-[90px] h-full bg-gradient-to-r z-[3] from-main via-main/70 to-transparent flex items-center"
         >
           <button className="size-[70px] sm:size-[40px] rounded-full border border-color-1/40 flex items-center justify-center">
             <svg
@@ -61,7 +61,7 @@ export default function HeroArticles() {
 
         <div
           id="pagination-right"
-          className="absolute top-0 right-20 sm:right-8 w-[200px] h-full bg-gradient-to-l z-[3] from-main via-main/70 to-transparent flex items-center justify-end"
+          className="absolute top-0 right-20 sm:right-8 w-[200px] sm:w-[90px] h-full bg-gradient-to-l z-[3] from-main via-main/70 to-transparent flex items-center justify-end"
         >
           <button className="size-[70px] sm:size-[40px] rounded-full border border-color-1/40 flex items-center justify-center">
             <svg
