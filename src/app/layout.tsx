@@ -34,7 +34,7 @@ export default function RootLayout({
     <html lang="en" data-theme="">
       <head></head>
       <body
-        className={`${openSans.variable} ${firaCode.variable} ${poppins.variable}  antialiased bg-main font-poppins text-[0.75rem] text-color-1 overflow-x-hidden relative`}
+        className={`${openSans.variable} ${firaCode.variable} ${poppins.variable}  w-screen antialiased bg-main font-poppins text-[0.75rem] text-color-1 overflow-hidden relative`}
       >
         {children}
       </body>
