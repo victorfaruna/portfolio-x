@@ -35,7 +35,7 @@ export default function HeroSmall() {
   }, []);
 
   return (
-    <div className="w-full px-20 sm:px-8 my-[3.5rem] flex flex-col gap-4">
+    <div className="w-full px-20 sm:px-8 my-[3.5rem] flex flex-col gap-6">
       <div className="w-full flex flex-col">
         <div id="top" className="w-full flex gap-20 justify-start">
           <div className="w-[80%]">
@@ -54,7 +54,7 @@ export default function HeroSmall() {
         </div>
       </div>
 
-      <p className="w-full text-[0.6rem] font-firaCode text-color-1/60 mt-3">
+      <p className="w-full text-[0.6rem] font-firaCode text-color-1/60">
         I’m Victor Faruna, a skilled{" "}
         <span className="text-color-1 italic">full-stack developer</span> with
         expertise in creating scalable web and mobile applications using modern

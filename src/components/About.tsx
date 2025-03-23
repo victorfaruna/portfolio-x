@@ -9,7 +9,7 @@ export default function About() {
         className="circle absolute z-[-999] top-[-100px] right-[-200px] size-[600px] rounded-full border border-color-1/40 sm:size-[300px]"
       ></div>
 
-      <div className="headline w-full flex flex-wrap">
+      <div className="headline w-full flex sm:flex-col sm:gap-4">
         <p className="w-[50%] text-[1.2rem] font-firaCode text-color-1/60">
           .../About me...
         </p>
