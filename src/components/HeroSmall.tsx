@@ -67,10 +67,10 @@ export default function HeroSmall() {
         id="projects-button-cont"
         className="flex flex-[1] gap-1 mb-3 justify-start"
       >
-        <button className="w-[180px] h-[30px] bg-color-1 text-[0.8rem] text-main italic rounded-full font-medium flex items-center justify-center">
+        <button className="w-[180px] h-[40px] bg-color-1 text-[0.8rem] text-main italic rounded-full font-medium flex items-center justify-center">
           Projects
         </button>
-        <button className="size-[30px] bg-color-1 flex items-center justify-center rounded-full text-main">
+        <button className="size-[40px] bg-color-1 flex items-center justify-center rounded-full text-main">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -88,10 +88,7 @@ export default function HeroSmall() {
         </button>
       </div>
 
-      <div
-        id="socials"
-        className="flex justify-center items-center gap-2 flex-wrap"
-      >
+      <div id="socials" className="flex justify-center gap-2 flex-wrap">
         <SocialItem
           icon="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425
         5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86
