@@ -27,7 +27,7 @@ export default function About() {
             <p className="title text-[1.2rem] sm:text-[1rem] font-ligh text-main">
               Front-end
             </p>
-            <p className="text-main/80 font-firaCode sm:text-[0.8rem]">
+            <p className="text-main/80 font-firaCode sm:text-[0.6rem]">
               Javascript / Typescript / React / Next.js / Jest / React Native /
               Svelte / SvelteKit
             </p>
@@ -39,7 +39,7 @@ export default function About() {
               <p className="title text-[1.2rem] sm:text-[1rem] font-light ">
                 Styles
               </p>
-              <p className="text-color-1/70 font-firaCode sm:text-[0.8rem]">
+              <p className="text-color-1/70 font-firaCode sm:text-[0.6rem]">
                 Tailwind CSS / SCSS / SASS / PostCSS / Material UI
               </p>
             </div>
@@ -78,7 +78,7 @@ export default function About() {
             <p className="title text-[1.2rem] sm:text-[1rem] font-light ">
               Back-end
             </p>
-            <p className="text-color-1/70 font-firaCode sm:text-[0.8rem]">
+            <p className="text-color-1/70 font-firaCode sm:text-[0.6rem]">
               Javascript / Typescript / React / Next.js / Jest / React Native /
               Svelte / SvelteKit
             </p>
@@ -98,7 +98,7 @@ export default function About() {
               <p className="title text-[1.2rem] sm:text-[1rem] font-light ">
                 DevOps
               </p>
-              <p className="text-color-1/70 font-firaCode sm:text-[0.8rem]">
+              <p className="text-color-1/70 font-firaCode sm:text-[0.6rem]">
                 Nginx / Docker / Kubernetes / AWS / GCP / Azure / Bash
               </p>
             </div>
