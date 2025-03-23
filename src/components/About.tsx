@@ -27,7 +27,7 @@ export default function About() {
             <p className="title text-[1.2rem] sm:text-[1rem] font-ligh text-main">
               Front-end
             </p>
-            <p className="text-main/80 font-firaCode sm:text-[0.6rem]">
+            <p className="text-main/80 font-firaCode sm:text-[0.65rem]">
               Javascript / Typescript / React / Next.js / Jest / React Native /
               Svelte / SvelteKit
             </p>
@@ -39,7 +39,7 @@ export default function About() {
               <p className="title text-[1.2rem] sm:text-[1rem] font-light ">
                 Styles
               </p>
-              <p className="text-color-1/70 font-firaCode sm:text-[0.6rem]">
+              <p className="text-color-1/70 font-firaCode sm:text-[0.65rem]">
                 Tailwind CSS / SCSS / SASS / PostCSS / Material UI
               </p>
             </div>
@@ -78,7 +78,7 @@ export default function About() {
             <p className="title text-[1.2rem] sm:text-[1rem] font-light ">
               Back-end
             </p>
-            <p className="text-color-1/70 font-firaCode sm:text-[0.6rem]">
+            <p className="text-color-1/70 font-firaCode sm:text-[0.65rem]">
               Javascript / Typescript / React / Next.js / Jest / React Native /
               Svelte / SvelteKit
             </p>
@@ -86,7 +86,7 @@ export default function About() {
           {/**/}
           <div className="rice w-full flex justify-between">
             <div className="rowd w-full flex items-center justify-center text-color-1/70">
-              <p className="sm:text-[0.6rem]">
+              <p className="sm:text-[0.65rem]">
                 These are all some of my favorite{" "}
                 <span className="italic text-color-1">tools</span>,{" "}
                 <span className="italic text-color-1">technologies</span> and{" "}
@@ -98,7 +98,7 @@ export default function About() {
               <p className="title text-[1.2rem] sm:text-[1rem] font-light ">
                 DevOps
               </p>
-              <p className="text-color-1/70 font-firaCode sm:text-[0.6rem]">
+              <p className="text-color-1/70 font-firaCode sm:text-[0.65rem]">
                 Nginx / Docker / Kubernetes / AWS / GCP / Azure / Bash
               </p>
             </div>
