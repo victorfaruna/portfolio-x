@@ -10,7 +10,7 @@ export default function About() {
       ></div>
 
       <div className="headline w-full flex sm:flex-col sm:gap-4">
-        <p className="w-[50%] text-[1.2rem] font-firaCode text-color-1/60">
+        <p className="w-[50%] md:w-full text-[1.2rem] font-firaCode text-color-1/60">
           .../About me...
         </p>
         <p className="text-[1rem] text-color-1/70">
@@ -24,8 +24,10 @@ export default function About() {
       <div className="inner w-full flex justify-between mt-20 md:flex-col md:gap-4">
         <div className="left w-[40%] md:w-full flex flex-col gap-5">
           <div className="rowx w-full p-7 rounded-[2.2rem] bg-color-1 borderrr border-color-1/30 flex flex-col gap-2">
-            <p className="title text-[1.2rem] font-ligh text-main">Front-end</p>
-            <p className="text-main/80 font-firaCode">
+            <p className="title text-[1.2rem] sm:text-[1rem] font-ligh text-main">
+              Front-end
+            </p>
+            <p className="text-main/80 font-firaCode sm:text-[0.8rem]">
               Javascript / Typescript / React / Next.js / Jest / React Native /
               Svelte / SvelteKit
             </p>
@@ -34,8 +36,10 @@ export default function About() {
           {/**/}
           <div className="stew w-full flex justify-between">
             <div className="rowx w-full p-7 rounded-[2.2rem] border border-color-1/30 flex flex-col gap-2">
-              <p className="title text-[1.2rem] font-light">Styles</p>
-              <p className="text-color-1/70 font-firaCode">
+              <p className="title text-[1.2rem] sm:text-[1rem] font-light ">
+                Styles
+              </p>
+              <p className="text-color-1/70 font-firaCode sm:text-[0.8rem]">
                 Tailwind CSS / SCSS / SASS / PostCSS / Material UI
               </p>
             </div>
@@ -71,8 +75,10 @@ export default function About() {
           </div>
           {/**/}
           <div className="rowx w-full p-7 rounded-[2.2rem] border border-color-1/30 flex flex-col gap-2">
-            <p className="title text-[1.2rem] font-light">Back-end</p>
-            <p className="text-color-1/70 font-firaCode">
+            <p className="title text-[1.2rem] sm:text-[1rem] font-light ">
+              Back-end
+            </p>
+            <p className="text-color-1/70 font-firaCode sm:text-[0.8rem]">
               Javascript / Typescript / React / Next.js / Jest / React Native /
               Svelte / SvelteKit
             </p>
@@ -89,8 +95,10 @@ export default function About() {
               </p>
             </div>
             <div className="rowx w-full p-7 rounded-[2.2rem] border border-color-1/30 flex flex-col gap-2">
-              <p className="title text-[1.2rem] font-light">DevOps</p>
-              <p className="text-color-1/70 font-firaCode">
+              <p className="title text-[1.2rem] sm:text-[1rem] font-light ">
+                DevOps
+              </p>
+              <p className="text-color-1/70 font-firaCode sm:text-[0.8rem]">
                 Nginx / Docker / Kubernetes / AWS / GCP / Azure / Bash
               </p>
             </div>
