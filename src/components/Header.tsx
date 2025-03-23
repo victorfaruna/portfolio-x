@@ -10,6 +10,7 @@ const getLocalTheme = () => {
 
 export default function Header() {
   const [theme, setTheme] = useState(getLocalTheme());
+  const [isOpen, setIsOpen] = useState(false);
   useEffect(() => {
     document.documentElement.setAttribute("data-theme", theme);
   }, [theme]);
@@ -39,8 +40,13 @@ export default function Header() {
         </p>
       </div>
 
-      <nav id="nav" className="sm:hidden">
-        <ul className="flex items-center gap-10 text-color-1/80">
+      <nav
+        id="nav"
+        className={`${
+          isOpen ? "sm:translate-x-[0]" : "sm:translate-x-[-100%]"
+        } transition-all duration-200 sm:flex sm:w-screen sm:h-screen sm:absolute sm:top-0 sm:left-0 sm:z-[999] sm:backdrop-blur-[2px]`}
+      >
+        <ul className="sm:w-[80%] sm:h-full sm:bg-main flex sm:flex-col items-center sm:items-start gap-10 text-color-1/80 sm:pl-[3rem] sm:pt-[4rem] sm:border-r-[1px] sm:border-color-1/10">
           <li>
             <Link href="/">About</Link>
           </li>
@@ -57,6 +63,10 @@ export default function Header() {
             <Link href="/">Contacts</Link>
           </li>
         </ul>
+        <div
+          className="hidden sm:flex sm:flex-1 sm:h-full"
+          onClick={() => setIsOpen(!isOpen)}
+        ></div>
       </nav>
 
       <div id="right">
@@ -88,7 +98,7 @@ export default function Header() {
           </svg>
         </button>
 
-        <button className="hidden sm:block">
+        <button className="hidden sm:block" onClick={() => setIsOpen(!isOpen)}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="currentColor"

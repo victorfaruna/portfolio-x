@@ -23,7 +23,7 @@ export default function About() {
 
       <div className="inner w-full flex justify-between mt-20 md:flex-col md:gap-4">
         <div className="left w-[40%] md:w-full flex flex-col gap-5">
-          <div className="rowx w-full p-7 rounded-[2.2rem] bg-color-1 borderrr border-color-1/30 flex flex-col gap-2">
+          <div className="rowx w-full p-7 sm:p-4 rounded-[2.2rem] sm:rounded-[1.7rem] bg-color-1 borderrr border-color-1/30 flex flex-col gap-2">
             <p className="title text-[1.2rem] sm:text-[1rem] font-ligh text-main">
               Front-end
             </p>
@@ -35,7 +35,7 @@ export default function About() {
 
           {/**/}
           <div className="stew w-full flex justify-between">
-            <div className="rowx w-full p-7 rounded-[2.2rem] border border-color-1/30 flex flex-col gap-2">
+            <div className="rowx w-full p-7 sm:p-4 rounded-[2.2rem] sm:rounded-[1.7rem] border border-color-1/30 flex flex-col gap-2">
               <p className="title text-[1.2rem] sm:text-[1rem] font-light ">
                 Styles
               </p>
@@ -74,7 +74,7 @@ export default function About() {
             </div>
           </div>
           {/**/}
-          <div className="rowx w-full p-7 rounded-[2.2rem] border border-color-1/30 flex flex-col gap-2">
+          <div className="rowx w-full p-7 sm:p-4 rounded-[2.2rem] sm:rounded-[1.7rem] border border-color-1/30 flex flex-col gap-2">
             <p className="title text-[1.2rem] sm:text-[1rem] font-light ">
               Back-end
             </p>
@@ -84,7 +84,7 @@ export default function About() {
             </p>
           </div>
           {/**/}
-          <div className="rice w-full flex justify-between">
+          <div className="rice w-full flex justify-between gap-2">
             <div className="rowd w-full flex items-center justify-center text-color-1/70">
               <p className="sm:text-[0.65rem]">
                 These are all some of my favorite{" "}
@@ -94,7 +94,7 @@ export default function About() {
                 worked with.
               </p>
             </div>
-            <div className="rowx w-full p-7 rounded-[2.2rem] border border-color-1/30 flex flex-col gap-2">
+            <div className="rowx w-full p-7 sm:p-4 rounded-[2.2rem] sm:rounded-[1.7rem] border border-color-1/30 flex flex-col gap-2">
               <p className="title text-[1.2rem] sm:text-[1rem] font-light ">
                 DevOps
               </p>
