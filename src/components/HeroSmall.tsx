@@ -40,7 +40,7 @@ export default function HeroSmall() {
         <div id="top" className="w-full flex gap-20 justify-start">
           <div className="w-[80%]">
             <p className="fit-text whitespace-nowrap font-firaCode font-semibold leading-none">
-              Full-stack
+              Full-stack__
             </p>
           </div>
         </div>
@@ -48,7 +48,7 @@ export default function HeroSmall() {
         <div id="bottom" className="w-full flex gap-20 justify-end items-start">
           <div className="w-[80%]">
             <p className="fit-text whitespace-nowrap font-firaCode font-semibold leading-none">
-              Developer
+              __Developer
             </p>
           </div>
         </div>
