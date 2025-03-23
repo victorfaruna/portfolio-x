@@ -14,7 +14,7 @@ const SocialItem = ({
   return (
     <button
       onClick={() => window.open(link, "_blank")}
-      className="item px-6 py-2 rounded-full border border-color-1/20 flex gap-2 items-center justify-center"
+      className="item px-4 py-2 rounded-full border-[0.5px] border-color-1/20 flex gap-2 items-center justify-center"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -35,7 +35,7 @@ export default function HeroSmall() {
   }, []);
 
   return (
-    <div className="w-full px-20 sm:px-8 my-[3.5rem] flex flex-col gap-8">
+    <div className="w-full px-20 sm:px-8 my-[3.5rem] flex flex-col gap-4">
       <div className="w-full flex flex-col">
         <div id="top" className="w-full flex gap-20 justify-start">
           <div className="w-[80%]">
@@ -65,12 +65,12 @@ export default function HeroSmall() {
 
       <div
         id="projects-button-cont"
-        className="flex flex-[1] gap-3 mb-3 justify-start"
+        className="flex flex-[1] gap-1 mb-3 justify-start"
       >
-        <button className="w-[200px] h-[45px] bg-color-1 text-[1rem] text-main italic rounded-full font-medium flex items-center justify-center">
+        <button className="w-[180px] h-[30px] bg-color-1 text-[0.8rem] text-main italic rounded-full font-medium flex items-center justify-center">
           Projects
         </button>
-        <button className="size-[45px] bg-color-1 flex items-center justify-center rounded-full text-main">
+        <button className="size-[30px] bg-color-1 flex items-center justify-center rounded-full text-main">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
