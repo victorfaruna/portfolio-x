@@ -23,7 +23,7 @@ export default function Header() {
     <header className="w-full h-[100px] sm:h-[70px] flex items-center justify-between px-20 sm:px-8 relative">
       <div
         id="header-circle"
-        className=" circle absolute z-[-999] top-[-60px] right-[-60px] size-[200px] rounded-full border border-color-1/40"
+        className=" circle absolute z-[-999] top-[-60px] right-[-60px]  size-[200px] sm:size-[160px] rounded-full border border-color-1/40"
       ></div>
 
       <div id="logo-big" className="sm:hidden">
