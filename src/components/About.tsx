@@ -79,8 +79,8 @@ export default function About() {
               Back-end
             </p>
             <p className="text-color-1/70 font-firaCode sm:text-[0.65rem]">
-              Javascript / Typescript / React / Next.js / Jest / React Native /
-              Svelte / SvelteKit
+              NodeJS / Express JS / NestJS / Python / Drizzle ORM / PostgreSQL /
+              MongoDB / Redis
             </p>
           </div>
           {/**/}
