@@ -35,20 +35,22 @@ export default function HeroSmall() {
   }, []);
 
   return (
-    <div className="w-full px-20 sm:px-8 my-[3.5rem] flex flex-col gap-4">
-      <div id="top" className="flex gap-20 justify-start items-start">
-        <div className="w-[70%]">
-          <p className="fit-text whitespace-nowrap font-firaCode font-semibold leading-none">
-            Full-stack
-          </p>
+    <div className="w-full px-20 sm:px-8 my-[3.5rem] flex flex-col gap-8">
+      <div className="w-full flex flex-col">
+        <div id="top" className="w-full flex gap-20 justify-start">
+          <div className="w-[80%]">
+            <p className="fit-text whitespace-nowrap font-firaCode font-semibold leading-none">
+              Full-stack
+            </p>
+          </div>
         </div>
-      </div>
 
-      <div id="bottom" className="flex gap-20 justify-end items-start">
-        <div className="w-[70%]">
-          <p className="fit-text whitespace-nowrap font-firaCode font-semibold leading-none">
-            Developer
-          </p>
+        <div id="bottom" className="w-full flex gap-20 justify-end items-start">
+          <div className="w-[80%]">
+            <p className="fit-text whitespace-nowrap font-firaCode font-semibold leading-none">
+              Developer
+            </p>
+          </div>
         </div>
       </div>
 
@@ -61,7 +63,35 @@ export default function HeroSmall() {
         solutions.
       </p>
 
-      <div id="socials" className="flex justify-center items-center gap-1">
+      <div
+        id="projects-button-cont"
+        className="flex flex-[1] gap-3 mb-3 justify-start"
+      >
+        <button className="w-[200px] h-[45px] bg-color-1 text-[1rem] text-main italic rounded-full font-medium flex items-center justify-center">
+          Projects
+        </button>
+        <button className="size-[45px] bg-color-1 flex items-center justify-center rounded-full text-main">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth="1.5"
+            stroke="currentColor"
+            className="size-4"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
+            />
+          </svg>
+        </button>
+      </div>
+
+      <div
+        id="socials"
+        className="flex justify-center items-center gap-2 flex-wrap"
+      >
         <SocialItem
           icon="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425
         5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86
