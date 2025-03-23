@@ -34,7 +34,9 @@ export default function Header() {
         </p>
       </div>
       <div id="logo-small" className="hidden sm:block">
-        <p className="text-color-1 font-firaCode text-[1rem]">vic.faruna</p>
+        <p className="text-color-1 font-firaCode text-[1rem]">
+          {"<"}vic.faruna{"/>"}
+        </p>
       </div>
 
       <nav id="nav" className="sm:hidden">
