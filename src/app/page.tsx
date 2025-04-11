@@ -15,19 +15,13 @@ export default function Home() {
     }, 3000);
     return (
         <main className="w-screen h-full overflow-x-hidden">
-            <div
-                className={cn(
-                    "w-screen h-screen fixed z-[999] top-0 left-0 bg-black transition-all duration-1000",
-                    isBooting ? "opacity-100" : "opacity-0"
-                )}
-            >
-                <Splash />
-            </div>
-            <Header />
+            <Splash />
+
+            {/* <Header />
             <Hero />
             <HeroArticles />
             <About />
-            <Projects />
+            <Projects /> */}
         </main>
     );
 }
